@@ -5,9 +5,9 @@ import style from './src/commons/styles';
 
 const MainComponentApp = () => {
   return (
-    <View styles={style.mainContiner}>
+    <View>
       <Text styles={style.textColor}>
-        Gimme money
+        Hola mundo
       </Text>
     </View>)
 };
