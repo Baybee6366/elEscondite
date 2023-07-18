@@ -1,16 +1,14 @@
 import React from 'react';
-import { Text, View } from "react-native";
-import style from './src/commons/styles';
-
+import { View } from 'react-native';
+import MainPageComponent from './src/screens/MainPage/MainPage.component';
 
 const MainComponentApp = () => {
-  return (
-    <View styles={style.mainContiner}>
-      <Text styles={style.textColor}>
-        Gimme money
-      </Text>
-    </View>)
-};
+    return(
+        <View>
+            <MainPageComponent />
+        </View>
+    )
+}
 
 export default MainComponentApp;
 
