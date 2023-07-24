@@ -5,11 +5,12 @@ import MovieCard from '../../Components/MovieCard/MovieCard';
 import { WeeklyBox } from '../../Components/WeeklyBox/MovieBoxes';
 import DailyQuiz from '../../Components/DailyQuiz/DailyQuiz';
 import DailyBox from '../../Components/DailyBox/DailyBox';
+import SplashScreen from 'react-native-splash-screen';
 
 const MainPageComponent = props => {
   const {} = props;
 
-  return(
+  return (
     <View style={styles.backgroundColor}>
       {/*<View style={styles.thumbsContainer}>
         <MovieCard>
