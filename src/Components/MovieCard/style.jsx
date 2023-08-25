@@ -7,27 +7,39 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     height: '94.3%',
     width: '82%',
-    backgroundColor: 'red',
+    backgroundColor: '#000',
     color: '#000',
     marginTop: 32,
     marginHorizontal: 32,
   },
   imageContainer: {
-    height: '30%',
+    height: '40%',
     width: '100%',
+    marginBottom: '5%',
     backgroundColor: '#000',
-    marginBottom: 20,
   },
   textContainer: {
-    height: '52%',
+    height: '45%',
     width: '100%',
-    backgroundColor: 'blue',
-    marginBottom: 15,
+    color: '#FFF',
+    zIndex: 2,
+  },
+  textTitle: {
+    color: '#FFF',
+    fontSize: 30,
+    fontWeight: 'bold',
+    marginLeft: '5%',
+    marginBottom: '5%',
+  },
+  text: {
+    color: '#FFF',
+    fontSize: 16,
+    marginLeft: '5%',
+    marginRight: '5%',
   },
   buttonContainer: {
     height: 60,
     width: '100%',
-    backgroundColor: '#FFF',
     alignItems: 'center',
   },
   backBox: {
@@ -35,8 +47,14 @@ const styles = StyleSheet.create({
     width: 30,
     marginTop: 20,
     marginLeft: 20,
-    backgroundColor: '#FFF',
-  }
+    zIndex: 4,
+  },
+  image: {
+    height: '100%',
+    width: '100%',
+    position: 'absolute',
+    zIndex: 2,
+  },
 });
 
 export default styles;
