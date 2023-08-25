@@ -10,11 +10,14 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     backgroundColor: 'blue',
     width: '83.2%',
-    height: 200,
+    height: '42%',
     marginTop: 30,
     marginHorizontal: '8%',
   },
-
+  image: {
+    width: '100%',
+    height: '100%',
+  },
 });
 
 export default styles;
